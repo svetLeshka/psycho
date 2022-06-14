@@ -1,0 +1,158 @@
+.btn {
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 24px;
+	font-size: calc(14px + 2 * ((100vw - 320px) / (1230 - 320)));
+	line-height: calc(20px + 4 * ((100vw - 320px) / (1230 - 320)));
+    padding: 13px 40px;
+	border-radius: 36px;
+	color: #fff;
+    background-color: $firm-color;
+	cursor: pointer;
+	transition: background-color 0.2s ease;
+
+	&:hover {
+		background-color: $firm-color-light;
+	}
+	@media (min-width: 1229.77px) {
+		font-size: 16px;
+		line-height: 24px;
+		&-firm-bk {
+			font-size: 16px;
+			line-height: 24px;
+		}
+	}
+	@include media-down(sm) {
+		padding: 10px 25px;
+		&-firm-bk {
+			padding: 10px 25px;
+		}
+	}
+
+	&-firm-bk {
+		font-weight: 700;
+		font-size: calc(14px + 2 * ((100vw - 320px) / (1230 - 320)));
+		line-height: calc(20px + 4 * ((100vw - 320px) / (1230 - 320)));
+		padding: 13px 40px;
+		border-radius: 36px;
+		color: $firm-color;
+		background-color: #fff;
+		cursor: pointer;
+		transition: background-color 0.2s ease;
+	
+		&:hover {
+			background-color: $grey-light;
+		}
+		@include media-down(sm) {
+			padding: 10px 25px;
+		}
+	}
+
+	&-small {
+		/*font-weight: 600;
+		font-size: 16px;
+		line-height: 24px;*/
+		padding: 3px 20px;
+		outline: 1.2px solid #D0D0D0;
+		border-radius: 15.5px;
+		color: $firm-color;
+		background-color: #fff;
+		cursor: pointer;
+		transition: outline 0.2s ease;
+
+		&:hover {
+			outline: 1.2px solid $firm-color;
+		}
+		&:active {
+			outline: 1.2px solid $firm-color;
+			background-color: $firm-color;
+			color: #fff;
+		}
+	}
+
+	&-small-bk {
+		font-weight: 600;
+		font-size: 16px;
+		line-height: 24px;
+		padding: 3px 20px;
+		outline: 1.2px solid #EC6A64;
+		border-radius: 15.5px;
+		color: #fff;
+		background-color: $firm-color;
+		cursor: pointer;
+		transition: background-color 0.2s ease;
+
+		&:hover {
+			background-color: #fff;
+		}
+	}
+
+	&-with-icon {
+		padding: 3px 41px 3px 20px;
+		outline: 1.2px solid #D0D0D0;
+		border-radius: 15.5px;
+		color: $firm-color;
+		position: relative;
+		transition: outline 0.2s ease;
+		&::before, &::after {
+			content: '';
+			position: absolute;
+			right: 20px;
+			top: 50%;
+			width: 14px;
+			height: 2px;
+			background-color: $firm-color;
+		}
+		&::before {
+			transform: rotateZ(45deg) translateY(calc(50% - 1px)) ;
+		}
+		&::after {
+			transform: rotateZ(-45deg) translateY(calc(50% - 1px));
+		}
+		&:hover {
+			outline: 1.2px solid $firm-color;
+		}
+	}
+
+	&-underline {
+		color: $firm-color;
+		position: relative;
+		overflow: hidden;
+		&::before {
+			content: '';
+			position: absolute;
+			width: 100%;
+			left: 0;
+			bottom: 0;
+			height: 1px;
+			background-color: $firm-color;
+			transition: left 0.2s ease;
+		}
+		&:hover::before {
+			left: -100%;
+		}
+	}
+
+	&-small-p {
+		font-weight: 600;
+		font-size: 14px;
+		line-height: 20px;
+		padding: 3px 15px;
+		letter-spacing: 0.01em;
+		outline: 1.2px solid rgba(208, 208, 208, 0.4);
+		border-radius: 13px;
+		color: $firm-color;
+		background-color: #fff;
+		cursor: pointer;
+		transition: outline 0.2s ease;
+	
+		&:hover {
+			outline: 1.2px solid $firm-color;
+		}
+	}
+
+    &--primary {
+        background-color: rgba(0, 87, 255, 0.15);
+        color: #0057FF;
+    }
+}

@@ -1,0 +1,113 @@
+$font-directory: "../../public/fonts";
+
+@font-face {
+    font-family: "NunitoSans";
+    src: url("#{$font-directory}/Nunito-Sans/NunitoSans-Regular.ttf") format("truetype");
+
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+}
+/* Medium нет
+@font-face {
+    font-family: "NunitoSans";
+    src: url("#{$font-directory}/Nunito-Sans/NunitoSans-Medium.ttf") format("truetype");
+
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+}
+*/
+@font-face {
+    font-family: "NunitoSans";
+    src: url("#{$font-directory}/Nunito-Sans/NunitoSans-SemiBold.ttf") format("truetype");
+
+    font-style: normal;
+    font-weight: 600;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "NunitoSans";
+    src: url("#{$font-directory}/Nunito-Sans/NunitoSans-Bold.ttf") format("truetype");
+
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+}
+
+
+@font-face {
+    font-family: "NunitoSans";
+    src: url("#{$font-directory}/Nunito-Sans/NunitoSans-ExtraBold.ttf") format("truetype");
+
+    font-style: normal;
+    font-weight: 800;
+    font-display: swap;
+}
+
+@font-face {
+	font-family: 'iconfont';
+	src: url('#{$font-directory}/iconfont/iconfont.eot?6zqavm');
+	src: url('#{$font-directory}/iconfont/iconfont.eot?6zqavm#iefix') format('embedded-opentype'),
+		url('#{$font-directory}/iconfont/iconfont.ttf?6zqavm') format('truetype'),
+		url('#{$font-directory}/iconfont/iconfont.woff?6zqavm') format('woff'),
+		url('#{$font-directory}/iconfont/iconfont.svg?6zqavm#icons') format('svg');
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+%ic {
+	font-family: 'iconfont';
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+[class*="_icon-"] {
+	&::before {
+		@extend %ic;
+		display: inline-block;
+	}
+}
+._icon-coat-of-arms:before {
+	content: "\e907";
+	color: #ec6a64;
+}
+
+._icon-arrow-next:before {
+	content: "\e906";
+}
+
+._icon-cult:before {
+	content: "\e905";
+}
+
+._icon-swiper-arrow:before {
+	content: "\e900";
+}
+
+._icon-VK:before {
+	content: "\e901";
+}
+
+._icon-arrow-back:before {
+	content: "\e902";
+}
+
+._icon-ISO:before {
+	content: "\e903";
+}
+
+._icon-OK:before {
+	content: "\e904";
+}
+
+._icon-YT:before {
+	content: "\e912";
+}

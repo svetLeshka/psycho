@@ -1,0 +1,21 @@
+@import "../spec/mixins";
+
+.container {
+    margin: 0 auto;
+	padding: 0 30px;
+	max-width: 1170px;
+	box-sizing: content-box;
+
+    @include media-down(md) {
+		padding: 0 15px;
+    }
+
+    &-small {
+        @extend .container;
+        max-width: 1590px - (16px * 2);
+    }
+}
+
+html {
+	scroll-behavior: smooth;
+}

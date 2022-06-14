@@ -1,0 +1,651 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport"
+		content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Врач. Бесплатный прием</title>
+</head>
+
+<body>
+	<div class="search-desktop">
+		<div class="container">
+			<div class="search-desktop__wrapper">
+				<div class="search-desktop__bk"></div>
+				<form method="get" class="search-desktop__form" id="search-form-desktop">
+					<img class="search-desktop__search" src="/public/images/search.png" alt="search">
+					<input type="text" class="search-desktop__input" placeholder="Поиск по сайту">
+					<button form="search-form-desktop" class="search-desktop__btn _icon-arrow-back"></button>
+				</form>
+				<div class="search-desktop__cancel"></div>
+			</div>
+		</div>
+	</div>
+	<div class="search-mobile">
+		<div class="container">
+			<div class="search-mobile__wrapper">
+				<div class="search-mobile__header">
+					<a href="/"><img src="/public/images/logo-white.png" alt="logo" class="search-mobile__img"></a>
+					<div class="search-mobile__cancel"></div>
+				</div>
+				<form method="get" class="search-mobile__form" id="search-form-mobile">
+					<img class="search-mobile__search" src="/public/images/search.png" alt="search">
+					<input type="text" class="search-mobile__input" placeholder="Поиск по сайту">
+				</form>
+				<button form="search-form-mobile" class="search-mobile__btn">Искать</button>
+			</div>
+		</div>
+	</div>
+	<header>
+		<div class="container">
+			<div class="header">
+				<div class="header__fixed-menu">
+					<div class="container">
+						<div class="header__fixed-menu_desktop desktop-fixed">
+							<a href="#" class="desktop-fixed__logo">
+								<img src="/public/images/menu-fixed.png" alt="logo-fixed">
+								<span>сокпб</span>
+							</a>
+							<div class="desktop-fixed__list">
+								<h5 class="desktop-fixed__list-item"><a href="/service.html">Услуги</a></h5>
+								<h5 class="desktop-fixed__list-item"><a href="#">Что мы лечим?</a></h5>
+								<h5 class="desktop-fixed__list-item"><a href="#">Тесты самодиагностики</a></h5>
+								<h5 class="desktop-fixed__list-item"><a href="#">Врачи</a></h5>
+								<h5 class="desktop-fixed__list-item"><a href="#">Контакты</a></h5>
+							</div>
+							<div class="desktop-fixed__contacts contacts-fixed">
+								<h5 class="contacts-fixed__tel"><a href="tel:">+7 (343) 261 94 94</a></h5>
+								<p class="contacts-fixed__desc">Регистратура СОКПБ</p>
+							</div>
+						</div>
+						<div class="header__fixed-menu_mobile mobile-fixed">
+							<div class="mobile-fixed__left">
+								<a href="#" class="mobile-fixed__logo">
+									<img src="/public/images/menu-fixed.png" alt="logo-fixed">
+								</a>
+								<div class="mobile-fixed__contacts contacts-fixed">
+									<h5 class="contacts-fixed__tel"><a href="tel:">+7 (343) 261 94 94</a></h5>
+									<p class="contacts-fixed__desc">Регистратура</p>
+								</div>
+							</div>
+							<div class="menu-mobile__burger-fixed"></div>
+						</div>
+					</div>
+				</div>
+				<div class="header__top">
+					<div class="header__top-element menu-desktop">
+						<div class="menu__list list">
+							<div class="list__logo">
+								<a href="#"><img src="/public/images/logo-white.png" alt="logo" width="370"
+										height="93"></a>
+							</div>
+							<ul class="list__wrapper">
+								<li class="list__item">
+									<h5 data-index="0">О СОКПБ</h5>
+								</li>
+								<li class="list__item">
+									<h5 data-index="1">Пациентам</h5>
+								</li>
+								<li class="list__item">
+									<a href="#">Статьи</a>
+								</li>
+								<li class="list__item">
+									<a href="#">Новости</a>
+								</li>
+								<li class="list__item">
+									<h5 data-index="2">Система менеджмента качества</h5>
+								</li>
+								<li class="list__item">
+									<h5 data-index="3">Образование и наука</h5>
+								</li>
+								<li class="list__item">
+									<a href="#">Филиалы и отделения</a>
+								</li>
+								<li class="list__item">
+									<a href="#">Вопрос-ответ</a>
+								</li>
+								<li class="list__item">
+									<a href="#">Отзывы</a>
+								</li>
+							</ul>
+							<div class="list__submenu submenu">
+								<div class="submenu__arrow-back _icon-arrow-back">Назад</div>
+								<ul class="submenu__wrapper"></ul>
+							</div>
+							<ul class="list__submenu-content" id="submenu0" hidden>
+								<li class="submenu__item"><a href="#">О больнице</a></li>
+								<li class="submenu__item"><a href="#">Команда управления</a></li>
+								<li class="submenu__item"><a href="#">Лицензия</a></li>
+								<li class="submenu__item"><a href="#">Учредительные документы</a></li>
+								<li class="submenu__item"><a href="#">Нормативные акты</a></li>
+								<li class="submenu__item"><a href="#">Организационная структура</a></li>
+								<li class="submenu__item"><a href="#">Реквизиты</a></li>
+								<li class="submenu__item"><a href="#">Закупки</a></li>
+							</ul>
+							<ul class="list__submenu-content" id="submenu1" hidden>
+								<li class="submenu__item"><a href="#">Режим и график работы</a></li>
+								<li class="submenu__item"><a href="#">График приема граждан руководством</a></li>
+								<li class="submenu__item"><a href="#">Обращение к главному врачу</a></li>
+								<li class="submenu__item"><a href="#">Виды медицинской помощи</a></li>
+								<li class="submenu__item"><a href="#">Диагностические исследования</a></li>
+								<li class="submenu__item"><a href="#">Правила записи на первичный прием</a></li>
+								<li class="submenu__item"><a href="#">Правила записи на консультативный прием</a></li>
+								<li class="submenu__item"><a href="#">Доступная среда</a></li>
+							</ul>
+							<ul class="list__submenu-content" id="submenu2" hidden>
+								<li class="submenu__item"><a href="#">Политика в области качества</a></li>
+								<li class="submenu__item"><a href="#">Цели и задачи</a></li>
+								<li class="submenu__item"><a href="#">Сертификация</a></li>
+							</ul>
+							<ul class="list__submenu-content" id="submenu3" hidden>
+								<li class="submenu__item"><a href="#">Кафедра психиатрии, психотерапии и наркологии
+										УГМУ</a></li>
+								<li class="submenu__item"><a href="#">Целевые наборы для поступления в УГМУ и ординатуру
+										по психиатрии</a></li>
+							</ul>
+						</div>
+						<div class="menu__btn">
+							меню
+						</div>
+						<div class="menu__img _icon-ISO">
+							9001-2015
+						</div>
+					</div>
+					<div class="header__top-element menu-mobile">
+						<div class="menu-mobile__img"></div>
+						<div class="menu-mobile__burger"></div>
+						<div class="menu-mobile__menu-wrapper wrapper-menu">
+							<div class="wrapper-menu__logo">
+								<a href="#"><img src="/public/images/logo-red.png" alt="logo" width="233"
+										height="59"></a>
+							</div>
+							<div class="wrapper-menu__icons">
+								<div class="wrapper-menu__eye"></div>
+								<div class="wrapper-menu__search"></div>
+							</div>
+							<div class="wrapper-menu__links"></div>
+							<ul class="wrapper-menu__list list-mobile">
+								<li class="list-mobile__item" data-index="0">
+									<h3>О СОКПБ</h3>
+								</li>
+								<li class="list-mobile__sublist sublist" id="sublist0">
+									<ul class="sublist__list">
+										<li class="sublist__item"><a href="#">О больнице</a></li>
+										<li class="sublist__item"><a href="#">Команда управления</a></li>
+										<li class="sublist__item"><a href="#">Лицензия</a></li>
+										<li class="sublist__item"><a href="#">Учредительные документы</a></li>
+										<li class="sublist__item"><a href="#">Нормативные акты</a></li>
+										<li class="sublist__item"><a href="#">Организационная структура</a></li>
+										<li class="sublist__item"><a href="#">Реквизиты</a></li>
+										<li class="sublist__item"><a href="#">Закупки</a></li>
+									</ul>
+								</li>
+								<li class="list-mobile__item" data-index="1">
+									<h3>Пациентам</h3>
+								</li>
+								<li class="list-mobile__sublist sublist" id="sublist1">
+									<ul class="sublist__list">
+										<li class="sublist__item"><a href="#">Режим и график работы</a></li>
+										<li class="sublist__item"><a href="#">График приема граждан руководством</a>
+										</li>
+										<li class="sublist__item"><a href="#">Обращение к главному врачу</a></li>
+										<li class="sublist__item"><a href="#">Виды медицинской помощи</a></li>
+										<li class="sublist__item"><a href="#">Диагностические исследования</a></li>
+										<li class="sublist__item"><a href="#">Правила записи на первичный прием</a></li>
+										<li class="sublist__item"><a href="#">Правила записи на консультативный
+												прием</a></li>
+										<li class="sublist__item"><a href="#">Доступная среда</a></li>
+									</ul>
+								</li>
+								<li class="list-mobile__item" data-index="2">
+									<h3>Образование</h3>
+								</li>
+								<li class="list-mobile__sublist sublist" id="sublist2">
+									<ul class="sublist__list">
+										<li class="sublist__item"><a href="#">Кафедра психиатрии, психотерапии и
+												наркологии УГМУ</a></li>
+										<li class="sublist__item"><a href="#">Целевые наборы для поступления в УГМУ и
+												ординатуру по психиатрии</a></li>
+									</ul>
+								</li>
+								<li class="list-mobile__item" data-index="3">
+									<h3>Система менеджмента качества</h3>
+								</li>
+								<li class="list-mobile__sublist sublist" id="sublist3">
+									<ul class="sublist__list">
+										<li class="sublist__item"><a href="#">Политика в области качества</a></li>
+										<li class="sublist__item"><a href="#">Цели и задачи</a></li>
+										<li class="sublist__item"><a href="#">Сертификация</a></li>
+									</ul>
+								</li>
+							</ul>
+							<div class="wrapper-menu__contacts contacts-menu">
+								<div class="contacts-menu__contact">
+									<a href="tel:" class="contacts-menu__contact-tel">+7 (343) 261 94 94</a>
+									<p class="contacts-menu__contact-name">Регистратура СОКПБ</p>
+									<div class="contacts-menu__socials">
+										<a href="#" class="_icon-VK"></a>
+										<a href="#" class="_icon-OK"></a>
+										<a href="#" class="_icon-YT"></a>
+									</div>
+								</div>
+								<div class="contacts-menu__contact">
+									<a href="tel:" class="contacts-menu__contact-tel">+7 (343) 261 94 94</a>
+									<p class="contacts-menu__contact-name">Клиника неврозов «Сосновый бор»</p>
+									<div class="contacts-menu__socials">
+										<a href="#" class="_icon-VK"></a>
+									</div>
+								</div>
+								<div class="contacts-menu__contact">
+									<a href="tel:" class="contacts-menu__contact-tel">+7 (343) 261 94 94</a>
+									<p class="contacts-menu__contact-name">Детский психологический центр</p>
+									<div class="contacts-menu__socials">
+										<a href="#" class="_icon-VK"></a>
+									</div>
+								</div>
+							</div>
+							<div class="wrapper-menu__trust-phone">
+								<a href="tel:">8 (800) 300 11 00</a>
+								<h6>телефон доверия</h6>
+							</div>
+						</div>
+					</div>
+					<div class="header__top-element eye-tel">
+						<div class="eye-tel__eye"></div>
+						<div class="eye-tel__trust-phone btn-small">
+							телефон доверия
+						</div>
+					</div>
+				</div>
+				<div class="header__middle middle-header">
+					<div class="middle-header__logo">
+						<a href="#"><img src="/public/images/logo-white.png" alt="logo" width="370" height="93"></a>
+					</div>
+					<div class="middle-header__contacts contacts">
+						<div class="contacts__contact">
+							<p class="contacts__contact-name">Регистратура</p>
+							<a href="tel:" class="contacts__contact-tel">+7 (343) 261 94 94</a>
+						</div>
+						<div class="contacts__contact">
+							<p class="contacts__contact-name">Сосновый бор</p>
+							<a href="tel:" class="contacts__contact-tel">+7 (343) 304 52 05</a>
+						</div>
+						<div class="contacts__contact">
+							<p class="contacts__contact-name">Детство</p>
+							<a href="tel:" class="contacts__contact-tel">+7 (343) 286 32 86</a>
+						</div>
+					</div>
+				</div>
+				<div class="header__bottom bottom-header">
+					<div class="bottom-header__link"><a href="/service.html">Услуги</a></div>
+					<div class="bottom-header__link"><a href="#">Что мы лечим?</a></div>
+					<div class="bottom-header__link"><a href="#">Тесты самодиагностики</a></div>
+					<div class="bottom-header__link"><a href="#">Врачи</a></div>
+					<div class="bottom-header__link"><a href="#">Контакты</a></div>
+					<div class="bottom-header__search">
+						<img src="/public/images/search.png" alt="search">
+					</div>
+					<div class="bottom-header__button">
+						<a href="#" class="btn">Записаться на прием</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+	<main>
+		<section class="path">
+			<div class="container">
+				<div class="path__wrapper">
+					<a class="path__link" href="/">Главная</a><span class="path__arrow _icon-arrow-next"></span>
+					<a class="path__link" href="/doctors.html">Врачи</a><span
+						class="path__arrow _icon-arrow-next"></span>
+					<span class="path__link path__cur">Санников Сергей Витальевич</span>
+				</div>
+			</div>
+		</section>
+		<section class="profile">
+			<div class="container">
+				<div class="profile__wrapper">
+					<div class="profile__bk"></div>
+					<h1 class="profile__title">Санников Сергей<br> Витальевич</h1>
+					<p class="profile__desc">Врач психотерапевт</p>
+					<p class="profile__spec">Оказание услуг на платной и бесплатной основе</p>
+					<div class="profile__tags">
+						<h6 class="profile__tag">20 лет стажа</h6>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="profile-services">
+			<div class="container">
+				<div class="profile-services__wrapper">
+					<div class="profile-services__list service-list">
+						<h5 class="service-list__title" data-index="0">Услуги и условия для получения бесплатной помощи
+						</h5>
+						<div class="service-list__desc desc-service-list">
+							<p class="desc-service-list__title">П. 2. Порядок оказания Учреждением медицинской помощи в
+								амбулаторных условиях.</p>
+							<p class="desc-service-list__text">Осуществляется в соответствии с территориально-участковым
+								принципом по месту постоянной регистрации или по месту
+								постоянного пребывания лица, страдающего психическим расстройством</p>
+							<p class="desc-service-list__text">Прием по предварительной записи в будние дни</p>
+							<p class="desc-service-list__text">Запись на прием врача-психиатра (психиатра-нарколога)
+								осуществляется в регистратуре подразделения Учреждения путем
+								личного обращения, либо по телефону, либо электронная запись</p>
+							<p class="desc-service-list__text">При обращении в подразделения Учреждения, указанные в
+								п.2.1,
+								предоставляется паспорт или иной заменяющий его документ,
+								удостоверяющий личность пациента (законного представителя)</p>
+							<p class="desc-service-list__text">Для обращения в консультативные подразделения учреждения
+								необходимо направление врача психиатра, психотерапевта, врача
+								психиатра-нарколога</p>
+							<p class="desc-service-list__title">П.3 Порядок госпитализации и выписки пациентов в
+								психиатрических стационарных отделениях Учреждения</p>
+							<p class="desc-service-list__text">Пациент госпитализируется в стационарное отделение
+								Учреждения
+								при наличии у него медицинских показаний для стационарного
+								лечения, обследования (МСЭ, РВК), а также в случаях необходимости обследования в
+								стационарных условиях при наличии:</p>
+							<ul class="desc-service-list__sublist">
+								<li class="desc-service-list__item">Направления участкового врача-психиатра (при
+									отсутствии
+									такого врача, направление врача другой специальности);</li>
+								<li class="desc-service-list__item">Направления скорой медицинской помощи;</li>
+								<li class="desc-service-list__item">По постановлению суда (в случаях назначения
+									принудительных мер медицинского характера или помещения в стационарное
+									отделение на основании ст.435 УПК РФ);</li>
+								<li class="desc-service-list__item">Пациенты без направления, обратившиеся
+									самостоятельно,
+									госпитализируются в экстренном, неотложном порядке, при наличии
+									медицинских показаний по бюджету.</li>
+							</ul>
+							<p class="desc-service-list__title">П. 4 Порядок госпитализации и выписки подэкспертных, не
+								содержащихся под стражей, в стационарное судебно-психиатрическое
+								экспертное отделение Учреждения</p>
+							<p class="desc-service-list__text">Дата госпитализации подэкспертных в стационарное
+								судебно-психиатрическое экспертное отделение для лиц, не содержащихся
+								под стражей, определяется в зависимости от загруженности отделения и очередности
+								поступления
+								материалов дела в
+								экспертное учреждение. Старшая сестра отделения заблаговременно направляет вызов на
+								госпитализацию в экспертное
+								отделение подэкспертному и следователю (в суд), вынесшему постановление о назначении
+								экспертизы.</p>
+							<h6 class="desc-service-list__link">
+								<a href="#" class="desc-service-list__link-btn">Кафедра психиатрии, психотерапии
+									и наркологии УГМУ</a>
+								<a href="#" class="desc-service-list__link-clone">Кафедра психиатрии, психотерапии
+									и наркологии УГМУ</a>
+							</h6>
+						</div>
+						<h5 class="service-list__title" data-index="1">Условия конфиденциальности</h5>
+						<div class="service-list__desc desc-service-list">
+							<p class="desc-service-list__price">1 500 ₽</p>
+							<p class="desc-service-list__text">Прием врача-психиатра, 1 прием (60 минут)</p>
+							<p class="desc-service-list__price">3 000 ₽</p>
+							<p class="desc-service-list__text">Прием врача-психиатра, 1 прием (30 минут)</p>
+							<p class="desc-service-list__price">4 500 ₽</p>
+							<p class="desc-service-list__text">Прием (осмотр, консультация) врача-психиатра (кандидат
+								медицинских наук), 1 прием (60 минут)</p>
+							<p class="desc-service-list__price">7 000 ₽</p>
+							<p class="desc-service-list__text">Прием (осмотр, консультация) врача-психиатра (доктор
+								медицинских наук), 1 прием (60 минут)</p>
+							<p class="desc-service-list__price">6 300 ₽</p>
+							<p class="desc-service-list__text">Прием (осмотр, консультация) врача-психиатра первичный (с
+								выздом на дом, для лиц 60 лет и старше*)</p>
+						</div>
+					</div>
+					<div class="profile-services__aside structure-hospital-red">
+						<div class="structure-hospital-red__bk"></div>
+						<h4 class="structure-hospital-red__title">Записаться на прием</h4>
+						<p class="structure-hospital-red__desc">Запишитесь на прием, используя онлайн-сервисы</p>
+						<h6 class="structure-hospital-red__link"><a href="#" class="btn-underline">Записаться</a>
+						</h6>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="profile-info">
+			<div class="container">
+				<div class="profile-info__wrapper">
+					<div class="profile-info__main">
+						<div class="profile-info__exp">
+							<h2 class="profile-info__title">Опыт работы</h2>
+							<h4 class="profile-info__year">с 2021 г.</h4>
+							<p class="profile-info__text">Врач-психиатр, геронтолог клиники «УГМК-Здоровье»</p>
+							<h4 class="profile-info__year">с 2004 г.</h4>
+							<p class="profile-info__text">Врач – психиатр, заведующий геронтопсихическим отделением
+								Государственного бюджетного учреждения «Свердловской областной
+								клинической психиатрической больницы»</p>
+							<h4 class="profile-info__year">2001-2004 г.</h4>
+							<p class="profile-info__text">Врач – психиатр Муниципального учреждения Психиатрической
+								больницы №3 (Государственное бюджетное учреждение
+								здравоохранения Свердловской области "Специализированная психиатрическая больница № 3")
+							</p>
+						</div>
+						<div class="profile-info__edu">
+							<h2 class="profile-info__title">Обучение и квалификация</h2>
+							<h4 class="profile-info__year">2017г.</h4>
+							<p class="profile-info__text">Повышение квалификации Федеральное государственное бюджетное
+								образовательное учреждение высшего образования «Уральский
+								государственный медицинский университет Министерства здравоохранения Российской
+								Федерации», специальность «Психиатрия»</p>
+							<h4 class="profile-info__year">2017г.</h4>
+							<p class="profile-info__text">Аспирантура Федеральное государственное бюджетное учреждение
+								высшего образования «Уральский государственный медицинский
+								университет» Министерства здравоохранения Российской Федерации г. Екатеринбург,
+								специальность «Клиническая медицина».</p>
+							<h4 class="profile-info__year">2000-2001 гг.</h4>
+							<p class="profile-info__text">Интернатура «Уральская государственная медицинская академия»,
+								специальность «Психиатрия»</p>
+							<h4 class="profile-info__year">1994-2000 гг.</h4>
+							<p class="profile-info__text">«Уральская государственная медицинская академия, врач по
+								специальности», врач по специальности «Лечебное дело»</p>
+						</div>
+					</div>
+					<div class="profile-info__aside">
+						<p class="profile-info__spec">Специализация врача</p>
+						<ul class="profile-info__list">
+							<li class="profile-info__item">Диагностика и лечение нервно-психической сферы</li>
+							<li class="profile-info__item">Расстройства адаптации</li>
+							<li class="profile-info__item">Депрессии</li>
+							<li class="profile-info__item">Страхи и фобии</li>
+							<li class="profile-info__item">Неврозы</li>
+							<li class="profile-info__item">Стресс</li>
+							<li class="profile-info__item">Кризисные ситуации</li>
+							<li class="profile-info__item">Биполярное расстройство</li>
+							<li class="profile-info__item">Неврастения</li>
+							<li class="profile-info__item">Синдром хронической усталости</li>
+						</ul>
+
+					</div>
+				</div>
+			</div>
+		</section>
+	</main>
+	<footer>
+		<div class="footer-top">
+			<div class="container">
+				<div class="footer-top__wrapper">
+					<div class="footer-top__contacts contacts-footer">
+						<div class="contacts-footer__contact">
+							<a href="tel:" class="contacts-footer__contact-tel">+7 (343) 261 94 94</a>
+							<p class="contacts-footer__contact-name">Регистратура СОКПБ</p>
+							<div class="contacts-footer__socials">
+								<a href="#" class="_icon-VK"></a>
+								<a href="#" class="_icon-OK"></a>
+								<a href="#" class="_icon-YT"></a>
+							</div>
+						</div>
+						<div class="contacts-footer__contact">
+							<a href="tel:" class="contacts-footer__contact-tel">+7 (343) 261 94 94</a>
+							<p class="contacts-footer__contact-name">Клиника неврозов «Сосновый бор»</p>
+							<div class="contacts-footer__socials">
+								<a href="#" class="_icon-VK"></a>
+							</div>
+						</div>
+						<div class="contacts-footer__contact">
+							<a href="tel:" class="contacts-footer__contact-tel">+7 (343) 261 94 94</a>
+							<p class="contacts-footer__contact-name">Детский психологический центр</p>
+							<div class="contacts-footer__socials">
+								<a href="#" class="_icon-VK"></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="footer-links">
+			<div class="container">
+				<div class="footer-links__wrapper">
+					<div class="footer-links__list list-footer">
+						<h4 class="list-footer__title" data-index="0">О СОКПБ</h4>
+						<ul class="list-footer__sublist sublist-footer" id="footer-sublist-0">
+							<li class="sublist-footer__item"><a href="#">О больнице</a></li>
+							<li class="sublist-footer__item"><a href="#">Команда управления</a></li>
+							<li class="sublist-footer__item"><a href="#">Лицензия</a></li>
+							<li class="sublist-footer__item"><a href="#">Учредительные документы</a></li>
+							<li class="sublist-footer__item"><a href="#">Нормативные акты</a></li>
+							<li class="sublist-footer__item"><a href="#">Организационная структура</a></li>
+							<li class="sublist-footer__item"><a href="#">Реквизиты</a></li>
+							<li class="sublist-footer__item"><a href="#">Закупки</a></li>
+						</ul>
+					</div>
+					<div class="footer-links__list list-footer">
+						<h4 class="list-footer__title" data-index="1">Пациентам</h4>
+						<ul class="list-footer__sublist sublist-footer" id="footer-sublist-1">
+							<li class="sublist-footer__item"><a href="#">Режим и график работы</a></li>
+							<li class="sublist-footer__item"><a href="#">График приема граждан руководством</a></li>
+							<li class="sublist-footer__item"><a href="#">Обращение к главному врачу</a></li>
+							<li class="sublist-footer__item"><a href="#">Виды медицинской помощи</a></li>
+							<li class="sublist-footer__item"><a href="#">Диагностические исследования</a></li>
+							<li class="sublist-footer__item"><a href="#">Правила записи на первичный прием</a></li>
+							<li class="sublist-footer__item"><a href="#">Правила записи на консультативный прием</a>
+							</li>
+							<li class="sublist-footer__item"><a href="#">Доступная среда</a></li>
+						</ul>
+					</div>
+					<div class="footer-links__main-list main-list-footer">
+						<h4 class="main-list-footer__title"><a href="#">Статьи</a></h4>
+						<h4 class="main-list-footer__title"><a href="#">Врачи</a></h4>
+						<h4 class="main-list-footer__title"><a href="#">Филиалы и отделения</a></h4>
+						<h4 class="main-list-footer__title"><a href="#">Вакансии</a></h4>
+						<h4 class="main-list-footer__title"><a href="#">ОМС</a></h4>
+						<h4 class="main-list-footer__title"><a href="#">Платные услуги</a></h4>
+						<h4 class="main-list-footer__title"><a href="#">Законодательство</a></h4>
+						<h4 class="main-list-footer__title"><a href="#">Контролирующие органы</a></h4>
+						<h4 class="main-list-footer__title"><a href="#">Новости</a></h4>
+						<h4 class="main-list-footer__title"><a href="#">Отзывы</a></h4>
+						<h4 class="main-list-footer__title"><a href="#">Вопрос-ответ</a></h4>
+					</div>
+					<div class="footer-links__list list-footer">
+						<h4 class="list-footer__title" data-index="2">Образование</h4>
+						<ul class="list-footer__sublist sublist-footer" id="footer-sublist-2">
+							<li class="sublist-footer__item"><a href="#">Кафедра психиатрии, психотерапии и наркологии
+									УГМУ</a></li>
+							<li class="sublist-footer__item"><a href="#">Целевые наборы для поступления в УГМУ и
+									ординатуру
+									по
+									психиатрии</a></li>
+						</ul>
+					</div>
+					<div class="footer-links__list footer-links__list-last list-footer">
+						<h4 class="list-footer__title " data-index="3">Система менеджмента качества</h4>
+						<ul class="list-footer__sublist sublist-footer" id="footer-sublist-3">
+							<li class="sublist-footer__item"><a href="#">Политика в области качества</a></li>
+							<li class="sublist-footer__item"><a href="#">Цели и задачи</a></li>
+							<li class="sublist-footer__item"><a href="#">Сертификация</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="footer-info">
+			<div class="container">
+				<div class="footer-info__wrapper">
+					<div class="footer-info__emblem emblem-footer">
+						<p class="emblem-footer__text">Независимая оценка качества оказания услуг медицинским
+							организациям
+						</p>
+						<p class="emblem-footer__link"><a href="#" class="btn-small-p">участвовать в голосовании</a></p>
+					</div>
+					<div class="footer-info__links links-footer">
+						<a href="#" class="links-footer__link btn-small-p">карта сайта</a>
+						<a href="#" class="links-footer__link btn-small-p">записаться на прием</a>
+						<a href="#" class="links-footer__link btn-small-p">о covid</a>
+						<a href="#" class="links-footer__link btn-small-p">телефон доверия</a>
+						<a href="#" class="links-footer__link btn-small-p">оставить отзыв</a>
+						<a href="#" class="links-footer__link btn-small-p">статьи</a>
+						<a href="#" class="links-footer__link btn-small-p">priemnaya@sokpb.ru</a>
+						<a href="#" class="links-footer__link btn-small-p">+</a>
+					</div>
+					<div class="footer-info__copyright copyright-footer">
+						<p class="copyright-footer__copyright">© ГАУЗ СО «Свердловская областная<br> клиническая
+							психиатрическая больница»</p>
+						<a href="#" class="copyright-footer__privacy">Политика конфиденциальности</a><br>
+						<p class="copyright-footer__made _icon-cult">Сделано в</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="footer-bottom">
+			<div class="container">
+				<div class="footer-bottom__wrapper">
+					<h1 class="footer-bottom__title _icon-swiper-arrow swiper-title">Полезные ссылки</h1>
+					<div class="footer__slider swiper slider-footer">
+						<div class="swiper-wrapper slider-footer__wrapper">
+							<a href="#" class="swiper-slide slider-footer__slide slide-footer">
+								<img class="slide-footer__img" src="/public/images/help-link-1.png" alt="help-link"
+									loading="lazy">
+								<p class="slide-footer__desc">Министерство здравоохранения Свердловской области</p>
+							</a>
+							<a href="#" class="swiper-slide slider-footer__slide slide-footer">
+								<img class="slide-footer__img" src="/public/images/help-link-2.png" alt="help-link"
+									loading="lazy">
+								<p class="slide-footer__desc">Министерство здравоохранения Российской Федерации</p>
+							</a>
+							<a href="#" class="swiper-slide slider-footer__slide slide-footer">
+								<img class="slide-footer__img" src="/public/images/help-link-3.png" alt="help-link"
+									loading="lazy">
+								<p class="slide-footer__desc">Российское общество психиатров</p>
+							</a>
+							<a href="#" class="swiper-slide slider-footer__slide slide-footer">
+								<img class="slide-footer__img" src="/public/images/help-link-4.png" alt="help-link"
+									loading="lazy">
+								<p class="slide-footer__desc">Роспотребнадзор</p>
+							</a>
+							<a href="#" class="swiper-slide slider-footer__slide slide-footer">
+								<img class="slide-footer__img" src="/public/images/help-link-1.png" alt="help-link"
+									loading="lazy">
+								<p class="slide-footer__desc">Министерство здравоохранения Свердловской области</p>
+							</a>
+							<a href="#" class="swiper-slide slider-footer__slide slide-footer">
+								<img class="slide-footer__img" src="/public/images/help-link-2.png" alt="help-link"
+									loading="lazy">
+								<p class="slide-footer__desc">Министерство здравоохранения Российской Федерации</p>
+							</a>
+							<a href="#" class="swiper-slide slider-footer__slide slide-footer">
+								<img class="slide-footer__img" src="/public/images/help-link-3.png" alt="help-link"
+									loading="lazy">
+								<p class="slide-footer__desc">Российское общество психиатров</p>
+							</a>
+							<a href="#" class="swiper-slide slider-footer__slide slide-footer">
+								<img class="slide-footer__img" src="/public/images/help-link-4.png" alt="help-link"
+									loading="lazy">
+								<p class="slide-footer__desc">Роспотребнадзор</p>
+							</a>
+						</div>
+					</div>
+					<div class="swiper-button-prev footer-button-prev"></div>
+					<div class="swiper-button-next footer-button-next"></div>
+					<a class="footer-bottom__img" href="#"><img src="/public/images/footer-bottom.png"
+							alt="footer-img"></a>
+				</div>
+			</div>
+		</div>
+	</footer>
+</body>
+
+</html>

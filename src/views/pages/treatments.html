@@ -1,0 +1,1132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport"
+		content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Что мы лечим?</title>
+</head>
+
+<body>
+	<div class="search-desktop">
+		<div class="container">
+			<div class="search-desktop__wrapper">
+				<div class="search-desktop__bk"></div>
+				<form method="get" class="search-desktop__form" id="search-form-desktop">
+					<img class="search-desktop__search" src="/public/images/search.png" alt="search">
+					<input type="text" class="search-desktop__input" placeholder="Поиск по сайту">
+					<button form="search-form-desktop" class="search-desktop__btn _icon-arrow-back"></button>
+				</form>
+				<div class="search-desktop__cancel"></div>
+			</div>
+		</div>
+	</div>
+	<div class="search-mobile">
+		<div class="container">
+			<div class="search-mobile__wrapper">
+				<div class="search-mobile__header">
+					<a href="/"><img src="/public/images/logo-white.png" alt="logo" class="search-mobile__img"></a>
+					<div class="search-mobile__cancel"></div>
+				</div>
+				<form method="get" class="search-mobile__form" id="search-form-mobile">
+					<img class="search-mobile__search" src="/public/images/search.png" alt="search">
+					<input type="text" class="search-mobile__input" placeholder="Поиск по сайту">
+				</form>
+				<button form="search-form-mobile" class="search-mobile__btn">Искать</button>
+			</div>
+		</div>
+	</div>
+	<header>
+		<div class="container">
+			<div class="header">
+				<div class="header__fixed-menu">
+					<div class="container">
+						<div class="header__fixed-menu_desktop desktop-fixed">
+							<a href="#" class="desktop-fixed__logo">
+								<img src="/public/images/menu-fixed.png" alt="logo-fixed">
+								<span>сокпб</span>
+							</a>
+							<div class="desktop-fixed__list">
+								<h5 class="desktop-fixed__list-item"><a href="/service.html">Услуги</a></h5>
+								<h5 class="desktop-fixed__list-item"><a href="#">Что мы лечим?</a></h5>
+								<h5 class="desktop-fixed__list-item"><a href="#">Тесты самодиагностики</a></h5>
+								<h5 class="desktop-fixed__list-item"><a href="/doctors.html">Врачи</a></h5>
+								<h5 class="desktop-fixed__list-item"><a href="#">Контакты</a></h5>
+							</div>
+							<div class="desktop-fixed__contacts contacts-fixed">
+								<h5 class="contacts-fixed__tel"><a href="tel:">+7 (343) 261 94 94</a></h5>
+								<p class="contacts-fixed__desc">Регистратура СОКПБ</p>
+							</div>
+						</div>
+						<div class="header__fixed-menu_mobile mobile-fixed">
+							<div class="mobile-fixed__left">
+								<a href="#" class="mobile-fixed__logo">
+									<img src="/public/images/menu-fixed.png" alt="logo-fixed">
+								</a>
+								<div class="mobile-fixed__contacts contacts-fixed">
+									<h5 class="contacts-fixed__tel"><a href="tel:">+7 (343) 261 94 94</a></h5>
+									<p class="contacts-fixed__desc">Регистратура</p>
+								</div>
+							</div>
+							<div class="menu-mobile__burger-fixed"></div>
+						</div>
+					</div>
+				</div>
+				<div class="header__top">
+					<div class="header__top-element menu-desktop">
+						<div class="menu__list list">
+							<div class="list__logo">
+								<a href="#"><img src="/public/images/logo-white.png" alt="logo" width="370"
+										height="93"></a>
+							</div>
+							<ul class="list__wrapper">
+								<li class="list__item">
+									<h5 data-index="0">О СОКПБ</h5>
+								</li>
+								<li class="list__item">
+									<h5 data-index="1">Пациентам</h5>
+								</li>
+								<li class="list__item">
+									<a href="#">Статьи</a>
+								</li>
+								<li class="list__item">
+									<a href="#">Новости</a>
+								</li>
+								<li class="list__item">
+									<h5 data-index="2">Система менеджмента качества</h5>
+								</li>
+								<li class="list__item">
+									<h5 data-index="3">Образование и наука</h5>
+								</li>
+								<li class="list__item">
+									<a href="#">Филиалы и отделения</a>
+								</li>
+								<li class="list__item">
+									<a href="#">Вопрос-ответ</a>
+								</li>
+								<li class="list__item">
+									<a href="#">Отзывы</a>
+								</li>
+							</ul>
+							<div class="list__submenu submenu">
+								<div class="submenu__arrow-back _icon-arrow-back">Назад</div>
+								<ul class="submenu__wrapper"></ul>
+							</div>
+							<ul class="list__submenu-content" id="submenu0" hidden>
+								<li class="submenu__item"><a href="#">О больнице</a></li>
+								<li class="submenu__item"><a href="#">Команда управления</a></li>
+								<li class="submenu__item"><a href="#">Лицензия</a></li>
+								<li class="submenu__item"><a href="#">Учредительные документы</a></li>
+								<li class="submenu__item"><a href="#">Нормативные акты</a></li>
+								<li class="submenu__item"><a href="#">Организационная структура</a></li>
+								<li class="submenu__item"><a href="#">Реквизиты</a></li>
+								<li class="submenu__item"><a href="#">Закупки</a></li>
+							</ul>
+							<ul class="list__submenu-content" id="submenu1" hidden>
+								<li class="submenu__item"><a href="#">Режим и график работы</a></li>
+								<li class="submenu__item"><a href="#">График приема граждан руководством</a></li>
+								<li class="submenu__item"><a href="#">Обращение к главному врачу</a></li>
+								<li class="submenu__item"><a href="#">Виды медицинской помощи</a></li>
+								<li class="submenu__item"><a href="#">Диагностические исследования</a></li>
+								<li class="submenu__item"><a href="#">Правила записи на первичный прием</a></li>
+								<li class="submenu__item"><a href="#">Правила записи на консультативный прием</a></li>
+								<li class="submenu__item"><a href="#">Доступная среда</a></li>
+							</ul>
+							<ul class="list__submenu-content" id="submenu2" hidden>
+								<li class="submenu__item"><a href="#">Политика в области качества</a></li>
+								<li class="submenu__item"><a href="#">Цели и задачи</a></li>
+								<li class="submenu__item"><a href="#">Сертификация</a></li>
+							</ul>
+							<ul class="list__submenu-content" id="submenu3" hidden>
+								<li class="submenu__item"><a href="#">Кафедра психиатрии, психотерапии и наркологии
+										УГМУ</a></li>
+								<li class="submenu__item"><a href="#">Целевые наборы для поступления в УГМУ и ординатуру
+										по психиатрии</a></li>
+							</ul>
+						</div>
+						<div class="menu__btn">
+							меню
+						</div>
+						<div class="menu__img _icon-ISO">
+							9001-2015
+						</div>
+					</div>
+					<div class="header__top-element menu-mobile">
+						<div class="menu-mobile__img"></div>
+						<div class="menu-mobile__burger"></div>
+						<div class="menu-mobile__menu-wrapper wrapper-menu">
+							<div class="wrapper-menu__logo">
+								<a href="#"><img src="/public/images/logo-red.png" alt="logo" width="233"
+										height="59"></a>
+							</div>
+							<div class="wrapper-menu__icons">
+								<div class="wrapper-menu__eye"></div>
+								<div class="wrapper-menu__search"></div>
+							</div>
+							<div class="wrapper-menu__links"></div>
+							<ul class="wrapper-menu__list list-mobile">
+								<li class="list-mobile__item" data-index="0">
+									<h3>О СОКПБ</h3>
+								</li>
+								<li class="list-mobile__sublist sublist" id="sublist0">
+									<ul class="sublist__list">
+										<li class="sublist__item"><a href="#">О больнице</a></li>
+										<li class="sublist__item"><a href="#">Команда управления</a></li>
+										<li class="sublist__item"><a href="#">Лицензия</a></li>
+										<li class="sublist__item"><a href="#">Учредительные документы</a></li>
+										<li class="sublist__item"><a href="#">Нормативные акты</a></li>
+										<li class="sublist__item"><a href="#">Организационная структура</a></li>
+										<li class="sublist__item"><a href="#">Реквизиты</a></li>
+										<li class="sublist__item"><a href="#">Закупки</a></li>
+									</ul>
+								</li>
+								<li class="list-mobile__item" data-index="1">
+									<h3>Пациентам</h3>
+								</li>
+								<li class="list-mobile__sublist sublist" id="sublist1">
+									<ul class="sublist__list">
+										<li class="sublist__item"><a href="#">Режим и график работы</a></li>
+										<li class="sublist__item"><a href="#">График приема граждан руководством</a>
+										</li>
+										<li class="sublist__item"><a href="#">Обращение к главному врачу</a></li>
+										<li class="sublist__item"><a href="#">Виды медицинской помощи</a></li>
+										<li class="sublist__item"><a href="#">Диагностические исследования</a></li>
+										<li class="sublist__item"><a href="#">Правила записи на первичный прием</a></li>
+										<li class="sublist__item"><a href="#">Правила записи на консультативный
+												прием</a></li>
+										<li class="sublist__item"><a href="#">Доступная среда</a></li>
+									</ul>
+								</li>
+								<li class="list-mobile__item" data-index="2">
+									<h3>Образование</h3>
+								</li>
+								<li class="list-mobile__sublist sublist" id="sublist2">
+									<ul class="sublist__list">
+										<li class="sublist__item"><a href="#">Кафедра психиатрии, психотерапии и
+												наркологии УГМУ</a></li>
+										<li class="sublist__item"><a href="#">Целевые наборы для поступления в УГМУ и
+												ординатуру по психиатрии</a></li>
+									</ul>
+								</li>
+								<li class="list-mobile__item" data-index="3">
+									<h3>Система менеджмента качества</h3>
+								</li>
+								<li class="list-mobile__sublist sublist" id="sublist3">
+									<ul class="sublist__list">
+										<li class="sublist__item"><a href="#">Политика в области качества</a></li>
+										<li class="sublist__item"><a href="#">Цели и задачи</a></li>
+										<li class="sublist__item"><a href="#">Сертификация</a></li>
+									</ul>
+								</li>
+							</ul>
+							<div class="wrapper-menu__contacts contacts-menu">
+								<div class="contacts-menu__contact">
+									<a href="tel:" class="contacts-menu__contact-tel">+7 (343) 261 94 94</a>
+									<p class="contacts-menu__contact-name">Регистратура СОКПБ</p>
+									<div class="contacts-menu__socials">
+										<a href="#" class="_icon-VK"></a>
+										<a href="#" class="_icon-OK"></a>
+										<a href="#" class="_icon-YT"></a>
+									</div>
+								</div>
+								<div class="contacts-menu__contact">
+									<a href="tel:" class="contacts-menu__contact-tel">+7 (343) 261 94 94</a>
+									<p class="contacts-menu__contact-name">Клиника неврозов «Сосновый бор»</p>
+									<div class="contacts-menu__socials">
+										<a href="#" class="_icon-VK"></a>
+									</div>
+								</div>
+								<div class="contacts-menu__contact">
+									<a href="tel:" class="contacts-menu__contact-tel">+7 (343) 261 94 94</a>
+									<p class="contacts-menu__contact-name">Детский психологический центр</p>
+									<div class="contacts-menu__socials">
+										<a href="#" class="_icon-VK"></a>
+									</div>
+								</div>
+							</div>
+							<div class="wrapper-menu__trust-phone">
+								<a href="tel:">8 (800) 300 11 00</a>
+								<h6>телефон доверия</h6>
+							</div>
+						</div>
+					</div>
+					<div class="header__top-element eye-tel">
+						<div class="eye-tel__eye"></div>
+						<div class="eye-tel__trust-phone btn-small">
+							телефон доверия
+						</div>
+					</div>
+				</div>
+				<div class="header__middle middle-header">
+					<div class="middle-header__logo">
+						<a href="#"><img src="/public/images/logo-white.png" alt="logo" width="370" height="93"></a>
+					</div>
+					<div class="middle-header__contacts contacts">
+						<div class="contacts__contact">
+							<p class="contacts__contact-name">Регистратура</p>
+							<a href="tel:" class="contacts__contact-tel">+7 (343) 261 94 94</a>
+						</div>
+						<div class="contacts__contact">
+							<p class="contacts__contact-name">Сосновый бор</p>
+							<a href="tel:" class="contacts__contact-tel">+7 (343) 304 52 05</a>
+						</div>
+						<div class="contacts__contact">
+							<p class="contacts__contact-name">Детство</p>
+							<a href="tel:" class="contacts__contact-tel">+7 (343) 286 32 86</a>
+						</div>
+					</div>
+				</div>
+				<div class="header__bottom bottom-header">
+					<div class="bottom-header__link"><a href="/service.html">Услуги</a></div>
+					<div class="bottom-header__link"><a href="#">Что мы лечим?</a></div>
+					<div class="bottom-header__link"><a href="#">Тесты самодиагностики</a></div>
+					<div class="bottom-header__link"><a href="/doctors.html">Врачи</a></div>
+					<div class="bottom-header__link"><a href="#">Контакты</a></div>
+					<div class="bottom-header__search">
+						<img src="/public/images/search.png" alt="search">
+					</div>
+					<div class="bottom-header__button">
+						<a href="#" class="btn">Записаться на прием</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+	<main>
+		<section class="path">
+			<div class="container">
+				<div class="path__wrapper">
+					<a class="path__link" href="/">Главная</a><span class="path__arrow _icon-arrow-next"></span>
+					<span class="path__link path__cur">Что мы лечим?</span>
+				</div>
+			</div>
+		</section>
+		<section class="treatments">
+			<div class="container">
+				<div class="treatments__wrapper">
+					<h1 class="treatments__title">Заболевания и клинические синдромы</h1>
+					<div class="treatments__links">
+						<h6 class="treatments__link active" data-index="0">по алфавиту</h6>
+						<h6 class="treatments__link" data-index="1">по МКБ</h6>
+					</div>
+					<div class="treatments__content-wrapper">
+						<div class="treatments__page alp-treatments show" id="treatments-page-0">
+							<div class="alp-treatments__letters letters__wrapper">
+								<h5 class="letters__letter">А</h5>
+								<h5 class="letters__letter">В</h5>
+								<h5 class="letters__letter">Г</h5>
+								<h5 class="letters__letter">Д</h5>
+								<h5 class="letters__letter">И</h5>
+								<h5 class="letters__letter">К</h5>
+								<h5 class="letters__letter">Л</h5>
+								<h5 class="letters__letter">М</h5>
+								<h5 class="letters__letter">Н</h5>
+								<h5 class="letters__letter">О</h5>
+								<h5 class="letters__letter">П</h5>
+								<h5 class="letters__letter">Р</h5>
+								<h5 class="letters__letter">С</h5>
+								<h5 class="letters__letter">Т</h5>
+								<h5 class="letters__letter">У</h5>
+								<h5 class="letters__letter">Ф</h5>
+								<h5 class="letters__letter">Х</h5>
+								<h5 class="letters__letter">Ч</h5>
+								<h5 class="letters__letter">Э</h5>
+							</div>
+							<div class="alp-treatments__content content-treatments">
+								<div class="content-treatments__item">
+									<h2 class="content-treatments__title">А</h2>
+									<a href="#" class="content-treatments__text">Деменция при болезни Альцгеймера <span
+											class="content-treatments__text-red">/ F00</span></a>
+									<a href="#" class="content-treatments__text">Сосудистая деменция <span
+											class="content-treatments__text-red">/
+											F01</span></a>
+									<a href="#" class="content-treatments__text">Деменция при других болезнях, классифицированных
+										в
+										других рубриках <span class="content-treatments__text-red">/ F02</span></a>
+									<a href="#" class="content-treatments__text">Деменция неуточненная <span
+											class="content-treatments__text-red">/
+											F03</span></a>
+									<a href="#" class="content-treatments__text">Органический амнестический синдром, не вызванный
+										алкоголем или другими психоактивными веществами <span
+											class="content-treatments__text-red">/ F04</span>
+									</a>
+									<a href="#" class="content-treatments__text">Органический амнестический синдром, не вызванный
+										алкоголем или другими психоактивными веществами <span
+											class="content-treatments__text-red">/ F04</span>
+									</a>
+									<a href="#" class="content-treatments__text">Делирий, не вызванный алкоголем или другими
+										психоактивными веществами <span class="content-treatments__text-red">/
+											F05</span>
+									</a>
+									<a href="#" class="content-treatments__text">Другие психические расстройства, обусловленные
+										повреждением и дисфункцией головного мозга или соматической болезнью <span
+											class="content-treatments__text-red">/ F06</span></a>
+									<a href="#" class="content-treatments__text">Расстройства личности и поведения, обусловленные
+										болезнью, повреждением или дисфункцией головного мозга <span
+											class="content-treatments__text-red">/
+											F07</span></a>
+									<a href="#" class="content-treatments__text">Органическое или симптоматическое психическое
+										расстройство неуточненное <span class="content-treatments__text-red">/
+											F09</span>
+									</a>
+								</div>
+								<div class="content-treatments__item">
+									<h2 class="content-treatments__title">Б</h2>
+									<a href="#" class="content-treatments__text">Психические и поведенческие расстройства,
+										вызванные
+										употреблением алкоголя <span class="content-treatments__text-red">/ F10</span>
+									</a>
+								</div>
+								<div class="content-treatments__item">
+									<h2 class="content-treatments__title">В</h2>
+									<a href="#" class="content-treatments__text">Деменция при болезни Альцгеймера <span
+											class="content-treatments__text-red">/
+											F00</span></a>
+									<a href="#" class="content-treatments__text">Сосудистая деменция <span
+											class="content-treatments__text-red">/ F01</span></a>
+									<a href="#" class="content-treatments__text">Деменция при других болезнях, классифицированных
+										в
+										других рубриках <span class="content-treatments__text-red">/ F02</span></a>
+									<a href="#" class="content-treatments__text">Деменция неуточненная <span
+											class="content-treatments__text-red">/ F03</span>
+									</a>
+									<a href="#" class="content-treatments__text">Органический амнестический синдром, не вызванный
+										алкоголем или другими психоактивными веществами <span
+											class="content-treatments__text-red">/ F04</span></a>
+								</div>
+								<div class="content-treatments__item">
+									<h2 class="content-treatments__title">П</h2>
+									<a href="#" class="content-treatments__text">Психические и поведенческие расстройства,
+										вызванные
+										употреблением алкоголя <span class="content-treatments__text-red">/ F10</span>
+									</a>
+									<a href="#" class="content-treatments__text">Психические и поведенческие расстройства,
+										вызванные
+										употреблением опиоидов <span class="content-treatments__text-red">/ F11</span>
+									</a>
+									<a href="#" class="content-treatments__text">Психические и поведенческие расстройства,
+										вызванные
+										употреблением каннабиоидов <span class="content-treatments__text-red">/
+											F12</span>
+									</a>
+									<a href="#" class="content-treatments__text">Психические и поведенческие расстройства,
+										вызванные
+										употреблением седативных или снотворных средств <span
+											class="content-treatments__text-red">/ F13</span>
+									</a>
+									<a href="#" class="content-treatments__text">Психические и поведенческие расстройства,
+										вызванные
+										употреблением кокаина <span class="content-treatments__text-red">/ F14</span>
+									</a>
+									<a href="#" class="content-treatments__text">Психические и поведенческие расстройства,
+										вызванные
+										употреблением других стимуляторов (включая кофеин) <span
+											class="content-treatments__text-red">/
+											F15</span></a>
+									<a href="#" class="content-treatments__text">Психические и поведенческие расстройства,
+										вызванные
+										употреблением галлюциногенов <span class="content-treatments__text-red">/
+											F16</span>
+									</a>
+									<a href="#" class="content-treatments__text">Психические и поведенческие расстройства,
+										вызванные
+										употреблением табака <span class="content-treatments__text-red">/ F17</span></a>
+									<a href="#" class="content-treatments__text">Психические и поведенческие расстройства,
+										вызванные
+										употреблением летучих растворителей <span class="content-treatments__text-red">/
+											F18</span></a>
+									<a href="/treatment-f19.html" class="content-treatments__text">Психические и поведенческие расстройства,
+										вызванные
+										одновре менным употреблением нескольких наркотических средств и
+										использованием других психоактивных веществ <span
+											class="content-treatments__text-red">/ F19</span></a>
+									<a href="#" class="content-treatments__text">Деменция при болезни Альцгеймера <span
+											class="content-treatments__text-red">/ F00</span></a>
+									<a href="#" class="content-treatments__text">Сосудистая деменция <span
+											class="content-treatments__text-red">/
+											F01</span></a>
+									<a href="#" class="content-treatments__text">Деменция при других болезнях, классифицированных
+										в
+										других рубриках <span class="content-treatments__text-red">/ F02</span></a>
+									<a href="#" class="content-treatments__text">Деменция неуточненная <span
+											class="content-treatments__text-red">/
+											F03</span></a>
+									<a href="#" class="content-treatments__text">Органический амнестический синдром, не вызванный
+										алкоголем или другими психоактивными веществами <span
+											class="content-treatments__text-red">/ F04</span>
+									</a>
+									<a href="#" class="content-treatments__text">Органический амнестический синдром, не вызванный
+										алкоголем или другими психоактивными веществами <span
+											class="content-treatments__text-red">/ F04</span>
+									</a>
+									<a href="#" class="content-treatments__text">Делирий, не вызванный алкоголем или другими
+										психоактивными веществами <span class="content-treatments__text-red">/
+											F05</span>
+									</a>
+									<a href="#" class="content-treatments__text">Другие психические расстройства, обусловленные
+										повреждением и дисфункцией головного мозга или соматической болезнью <span
+											class="content-treatments__text-red">/ F06</span></a>
+									<a href="#" class="content-treatments__text">Расстройства личности и поведения, обусловленные
+										болезнью, повреждением или дисфункцией головного мозга <span
+											class="content-treatments__text-red">/
+											F07</span></a>
+									<a href="#" class="content-treatments__text">Органическое или симптоматическое психическое
+										расстройство неуточненное <span class="content-treatments__text-red">/
+											F09</span>
+									</a>
+								</div>
+								<div class="content-treatments__item">
+									<h2 class="content-treatments__title">Р</h2>
+									<a href="#" class="content-treatments__text">Деменция при болезни Альцгеймера <span
+											class="content-treatments__text-red">/ F00</span></a>
+									<a href="#" class="content-treatments__text">Сосудистая деменция <span
+											class="content-treatments__text-red">/
+											F01</span></a>
+									<a href="#" class="content-treatments__text">Деменция при других болезнях, классифицированных
+										в
+										других рубриках <span class="content-treatments__text-red">/ F02</span></a>
+								</div>
+								<div class="content-treatments__item">
+									<h2 class="content-treatments__title">С</h2>
+									<a href="#" class="content-treatments__text">Психические и поведенческие расстройства,
+										вызванные
+										употреблением алкоголя <span class="content-treatments__text-red">/ F10</span>
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="treatments__page mkb-treatments hide" id="treatments-page-1">
+							<div class="mkb-treatments__letters-wrapper _icon-swiper-arrow">
+								<div class="mkb-treatments__letters letters__wrapper">
+									<h5 class="letters__letter">F00 – F09</h5>
+									<h5 class="letters__letter">F10 – F19</h5>
+									<h5 class="letters__letter">F20 – F29</h5>
+									<h5 class="letters__letter">F30 – F39</h5>
+									<h5 class="letters__letter">F40 – F48</h5>
+									<h5 class="letters__letter">F50 – F59</h5>
+									<h5 class="letters__letter">F60 – F69</h5>
+									<h5 class="letters__letter">F70 – F79</h5>
+									<h5 class="letters__letter">F80 – F89</h5>
+									<h5 class="letters__letter">F90 – F98</h5>
+									<h5 class="letters__letter">F99 – F99</h5>
+								</div>
+							</div>
+							<div class="mkb-treatments__content content-treatments">
+								<div class="content-treatments__item">
+									<h2 class="content-treatments__title">F00 – F09</h2>
+									<a href="#" class="content-treatments__text">Деменция при болезни Альцгеймера <span
+											class="content-treatments__text-red">/ F00</span></a>
+									<a href="#" class="content-treatments__text">Сосудистая деменция <span
+											class="content-treatments__text-red">/
+											F01</span></a>
+									<a href="#" class="content-treatments__text">Деменция при других болезнях, классифицированных
+										в
+										других рубриках <span class="content-treatments__text-red">/ F02</span></a>
+									<a href="#" class="content-treatments__text">Деменция неуточненная <span
+											class="content-treatments__text-red">/
+											F03</span></a>
+									<a href="#" class="content-treatments__text">Органический амнестический синдром, не вызванный
+										алкоголем или другими психоактивными веществами <span
+											class="content-treatments__text-red">/ F04</span>
+									</a>
+									<a href="#" class="content-treatments__text">Органический амнестический синдром, не вызванный
+										алкоголем или другими психоактивными веществами <span
+											class="content-treatments__text-red">/ F04</span>
+									</a>
+									<a href="#" class="content-treatments__text">Делирий, не вызванный алкоголем или другими
+										психоактивными веществами <span class="content-treatments__text-red">/
+											F05</span>
+									</a>
+									<a href="#" class="content-treatments__text">Другие психические расстройства, обусловленные
+										повреждением и дисфункцией головного мозга или соматической болезнью <span
+											class="content-treatments__text-red">/ F06</span></a>
+									<a href="#" class="content-treatments__text">Расстройства личности и поведения, обусловленные
+										болезнью, повреждением или дисфункцией головного мозга <span
+											class="content-treatments__text-red">/
+											F07</span></a>
+									<a href="#" class="content-treatments__text">Органическое или симптоматическое психическое
+										расстройство неуточненное <span class="content-treatments__text-red">/
+											F09</span>
+									</a>
+								</div>
+								<div class="content-treatments__item">
+									<h2 class="content-treatments__title">F10 – F19</h2>
+									<a href="#" class="content-treatments__text">Психические и поведенческие расстройства,
+										вызванные
+										употреблением алкоголя <span class="content-treatments__text-red">/ F10</span>
+									</a>
+									<a href="#" class="content-treatments__text">Психические и поведенческие расстройства,
+										вызванные
+										употреблением опиоидов <span class="content-treatments__text-red">/ F11</span>
+									</a>
+									<a href="#" class="content-treatments__text">Психические и поведенческие расстройства,
+										вызванные
+										употреблением каннабиоидов <span class="content-treatments__text-red">/
+											F12</span>
+									</a>
+									<a href="#" class="content-treatments__text">Психические и поведенческие расстройства,
+										вызванные
+										употреблением седативных или снотворных средств <span
+											class="content-treatments__text-red">/ F13</span>
+									</a>
+									<a href="#" class="content-treatments__text">Психические и поведенческие расстройства,
+										вызванные
+										употреблением кокаина <span class="content-treatments__text-red">/ F14</span>
+									</a>
+									<a href="#" class="content-treatments__text">Психические и поведенческие расстройства,
+										вызванные
+										употреблением других стимуляторов (включая кофеин) <span
+											class="content-treatments__text-red">/
+											F15</span></a>
+									<a href="#" class="content-treatments__text">Психические и поведенческие расстройства,
+										вызванные
+										употреблением галлюциногенов <span class="content-treatments__text-red">/
+											F16</span>
+									</a>
+									<a href="#" class="content-treatments__text">Психические и поведенческие расстройства,
+										вызванные
+										употреблением табака <span class="content-treatments__text-red">/ F17</span></a>
+									<a href="#" class="content-treatments__text">Психические и поведенческие расстройства,
+										вызванные
+										употреблением летучих растворителей <span class="content-treatments__text-red">/
+											F18</span></a>
+									<a href="/treatment-f19.html" class="content-treatments__text">Психические и поведенческие расстройства,
+										вызванные
+										одновре менным употреблением нескольких наркотических средств и
+										использованием других психоактивных веществ <span
+											class="content-treatments__text-red">/ F19</span></a>
+								</div>
+								<div class="content-treatments__item">
+									<h2 class="content-treatments__title">F20 – F29</h2>
+									<a href="#" class="content-treatments__text">Деменция при болезни Альцгеймера <span
+											class="content-treatments__text-red">/ F00</span></a>
+									<a href="#" class="content-treatments__text">Сосудистая деменция <span
+											class="content-treatments__text-red">/
+											F01</span></a>
+									<a href="#" class="content-treatments__text">Деменция при других болезнях, классифицированных
+										в
+										других рубриках <span class="content-treatments__text-red">/ F02</span></a>
+									<a href="#" class="content-treatments__text">Деменция неуточненная <span
+											class="content-treatments__text-red">/
+											F03</span></a>
+									<a href="#" class="content-treatments__text">Органический амнестический синдром, не вызванный
+										алкоголем или другими психоактивными веществами <span
+											class="content-treatments__text-red">/ F04</span>
+									</a>
+									<a href="#" class="content-treatments__text">Органический амнестический синдром, не вызванный
+										алкоголем или другими психоактивными веществами <span
+											class="content-treatments__text-red">/ F04</span>
+									</a>
+									<a href="#" class="content-treatments__text">Делирий, не вызванный алкоголем или другими
+										психоактивными веществами <span class="content-treatments__text-red">/
+											F05</span>
+									</a>
+									<a href="#" class="content-treatments__text">Другие психические расстройства, обусловленные
+										повреждением и дисфункцией головного мозга или соматической болезнью <span
+											class="content-treatments__text-red">/ F06</span></a>
+									<a href="#" class="content-treatments__text">Расстройства личности и поведения, обусловленные
+										болезнью, повреждением или дисфункцией головного мозга <span
+											class="content-treatments__text-red">/
+											F07</span></a>
+									<a href="#" class="content-treatments__text">Органическое или симптоматическое психическое
+										расстройство неуточненное <span class="content-treatments__text-red">/
+											F09</span>
+									</a>
+								</div>
+								<div class="content-treatments__item">
+									<h2 class="content-treatments__title">F30 – F39</h2>
+									<a href="#" class="content-treatments__text">Психические и поведенческие расстройства,
+										вызванные
+										употреблением алкоголя <span class="content-treatments__text-red">/ F10</span>
+									</a>
+									<a href="#" class="content-treatments__text">Психические и поведенческие расстройства,
+										вызванные
+										употреблением опиоидов <span class="content-treatments__text-red">/ F11</span>
+									</a>
+									<a href="#" class="content-treatments__text">Психические и поведенческие расстройства,
+										вызванные
+										употреблением каннабиоидов <span class="content-treatments__text-red">/
+											F12</span>
+									</a>
+									<a href="#" class="content-treatments__text">Психические и поведенческие расстройства,
+										вызванные
+										употреблением седативных или снотворных средств <span
+											class="content-treatments__text-red">/ F13</span>
+									</a>
+									<a href="#" class="content-treatments__text">Психические и поведенческие расстройства,
+										вызванные
+										употреблением кокаина <span class="content-treatments__text-red">/ F14</span>
+									</a>
+									<a href="#" class="content-treatments__text">Психические и поведенческие расстройства,
+										вызванные
+										употреблением других стимуляторов (включая кофеин) <span
+											class="content-treatments__text-red">/
+											F15</span></a>
+									<a href="#" class="content-treatments__text">Психические и поведенческие расстройства,
+										вызванные
+										употреблением галлюциногенов <span class="content-treatments__text-red">/
+											F16</span>
+									</a>
+									<a href="#" class="content-treatments__text">Психические и поведенческие расстройства,
+										вызванные
+										употреблением табака <span class="content-treatments__text-red">/ F17</span></a>
+									<a href="#" class="content-treatments__text">Психические и поведенческие расстройства,
+										вызванные
+										употреблением летучих растворителей <span class="content-treatments__text-red">/
+											F18</span></a>
+									<a href="#" class="content-treatments__text">Психические и поведенческие расстройства,
+										вызванные
+										одновре менным употреблением нескольких наркотических средств и
+										использованием других психоактивных веществ <span
+											class="content-treatments__text-red">/ F19</span></a>
+								</div>
+								<div class="content-treatments__item">
+									<h2 class="content-treatments__title">F40 – F48</h2>
+									<a href="#" class="content-treatments__text">Деменция при болезни Альцгеймера <span
+											class="content-treatments__text-red">/ F00</span></a>
+									<a href="#" class="content-treatments__text">Сосудистая деменция <span
+											class="content-treatments__text-red">/
+											F01</span></a>
+									<a href="#" class="content-treatments__text">Деменция при других болезнях, классифицированных
+										в
+										других рубриках <span class="content-treatments__text-red">/ F02</span></a>
+									<a href="#" class="content-treatments__text">Деменция неуточненная <span
+											class="content-treatments__text-red">/
+											F03</span></a>
+									<a href="#" class="content-treatments__text">Органический амнестический синдром, не вызванный
+										алкоголем или другими психоактивными веществами <span
+											class="content-treatments__text-red">/ F04</span>
+									</a>
+									<a href="#" class="content-treatments__text">Органический амнестический синдром, не вызванный
+										алкоголем или другими психоактивными веществами <span
+											class="content-treatments__text-red">/ F04</span>
+									</a>
+									<a href="#" class="content-treatments__text">Делирий, не вызванный алкоголем или другими
+										психоактивными веществами <span class="content-treatments__text-red">/
+											F05</span>
+									</a>
+									<a href="#" class="content-treatments__text">Другие психические расстройства, обусловленные
+										повреждением и дисфункцией головного мозга или соматической болезнью <span
+											class="content-treatments__text-red">/ F06</span></a>
+									<a href="#" class="content-treatments__text">Расстройства личности и поведения, обусловленные
+										болезнью, повреждением или дисфункцией головного мозга <span
+											class="content-treatments__text-red">/
+											F07</span></a>
+									<a href="#" class="content-treatments__text">Органическое или симптоматическое психическое
+										расстройство неуточненное <span class="content-treatments__text-red">/
+											F09</span>
+									</a>
+								</div>
+								<div class="content-treatments__item">
+									<h2 class="content-treatments__title">F50 – F59</h2>
+									<a href="#" class="content-treatments__text">Психические и поведенческие расстройства,
+										вызванные
+										употреблением алкоголя <span class="content-treatments__text-red">/ F10</span>
+									</a>
+									<a href="#" class="content-treatments__text">Психические и поведенческие расстройства,
+										вызванные
+										употреблением опиоидов <span class="content-treatments__text-red">/ F11</span>
+									</a>
+									<a href="#" class="content-treatments__text">Психические и поведенческие расстройства,
+										вызванные
+										употреблением каннабиоидов <span class="content-treatments__text-red">/
+											F12</span>
+									</a>
+									<a href="#" class="content-treatments__text">Психические и поведенческие расстройства,
+										вызванные
+										употреблением седативных или снотворных средств <span
+											class="content-treatments__text-red">/ F13</span>
+									</a>
+									<a href="#" class="content-treatments__text">Психические и поведенческие расстройства,
+										вызванные
+										употреблением кокаина <span class="content-treatments__text-red">/ F14</span>
+									</a>
+									<a href="#" class="content-treatments__text">Психические и поведенческие расстройства,
+										вызванные
+										употреблением других стимуляторов (включая кофеин) <span
+											class="content-treatments__text-red">/
+											F15</span></a>
+									<a href="#" class="content-treatments__text">Психические и поведенческие расстройства,
+										вызванные
+										употреблением галлюциногенов <span class="content-treatments__text-red">/
+											F16</span>
+									</a>
+									<a href="#" class="content-treatments__text">Психические и поведенческие расстройства,
+										вызванные
+										употреблением табака <span class="content-treatments__text-red">/ F17</span></a>
+									<a href="#" class="content-treatments__text">Психические и поведенческие расстройства,
+										вызванные
+										употреблением летучих растворителей <span class="content-treatments__text-red">/
+											F18</span></a>
+									<a href="#" class="content-treatments__text">Психические и поведенческие расстройства,
+										вызванные
+										одновре менным употреблением нескольких наркотических средств и
+										использованием других психоактивных веществ <span
+											class="content-treatments__text-red">/ F19</span></a>
+								</div>
+								<div class="content-treatments__item">
+									<h2 class="content-treatments__title">F60 – F69</h2>
+									<a href="#" class="content-treatments__text">Деменция при болезни Альцгеймера <span
+											class="content-treatments__text-red">/ F00</span></a>
+									<a href="#" class="content-treatments__text">Сосудистая деменция <span
+											class="content-treatments__text-red">/
+											F01</span></a>
+									<a href="#" class="content-treatments__text">Деменция при других болезнях, классифицированных
+										в
+										других рубриках <span class="content-treatments__text-red">/ F02</span></a>
+									<a href="#" class="content-treatments__text">Деменция неуточненная <span
+											class="content-treatments__text-red">/
+											F03</span></a>
+									<a href="#" class="content-treatments__text">Органический амнестический синдром, не вызванный
+										алкоголем или другими психоактивными веществами <span
+											class="content-treatments__text-red">/ F04</span>
+									</a>
+									<a href="#" class="content-treatments__text">Органический амнестический синдром, не вызванный
+										алкоголем или другими психоактивными веществами <span
+											class="content-treatments__text-red">/ F04</span>
+									</a>
+									<a href="#" class="content-treatments__text">Делирий, не вызванный алкоголем или другими
+										психоактивными веществами <span class="content-treatments__text-red">/
+											F05</span>
+									</a>
+									<a href="#" class="content-treatments__text">Другие психические расстройства, обусловленные
+										повреждением и дисфункцией головного мозга или соматической болезнью <span
+											class="content-treatments__text-red">/ F06</span></a>
+									<a href="#" class="content-treatments__text">Расстройства личности и поведения, обусловленные
+										болезнью, повреждением или дисфункцией головного мозга <span
+											class="content-treatments__text-red">/
+											F07</span></a>
+									<a href="#" class="content-treatments__text">Органическое или симптоматическое психическое
+										расстройство неуточненное <span class="content-treatments__text-red">/
+											F09</span>
+									</a>
+								</div>
+								<div class="content-treatments__item">
+									<h2 class="content-treatments__title">F70 – F79</h2>
+									<a href="#" class="content-treatments__text">Психические и поведенческие расстройства,
+										вызванные
+										употреблением алкоголя <span class="content-treatments__text-red">/ F10</span>
+									</a>
+									<a href="#" class="content-treatments__text">Психические и поведенческие расстройства,
+										вызванные
+										употреблением опиоидов <span class="content-treatments__text-red">/ F11</span>
+									</a>
+									<a href="#" class="content-treatments__text">Психические и поведенческие расстройства,
+										вызванные
+										употреблением каннабиоидов <span class="content-treatments__text-red">/
+											F12</span>
+									</a>
+									<a href="#" class="content-treatments__text">Психические и поведенческие расстройства,
+										вызванные
+										употреблением седативных или снотворных средств <span
+											class="content-treatments__text-red">/ F13</span>
+									</a>
+									<a href="#" class="content-treatments__text">Психические и поведенческие расстройства,
+										вызванные
+										употреблением кокаина <span class="content-treatments__text-red">/ F14</span>
+									</a>
+									<a href="#" class="content-treatments__text">Психические и поведенческие расстройства,
+										вызванные
+										употреблением других стимуляторов (включая кофеин) <span
+											class="content-treatments__text-red">/
+											F15</span></a>
+									<a href="#" class="content-treatments__text">Психические и поведенческие расстройства,
+										вызванные
+										употреблением галлюциногенов <span class="content-treatments__text-red">/
+											F16</span>
+									</a>
+									<a href="#" class="content-treatments__text">Психические и поведенческие расстройства,
+										вызванные
+										употреблением табака <span class="content-treatments__text-red">/ F17</span></a>
+									<a href="#" class="content-treatments__text">Психические и поведенческие расстройства,
+										вызванные
+										употреблением летучих растворителей <span class="content-treatments__text-red">/
+											F18</span></a>
+									<a href="#" class="content-treatments__text">Психические и поведенческие расстройства,
+										вызванные
+										одновре менным употреблением нескольких наркотических средств и
+										использованием других психоактивных веществ <span
+											class="content-treatments__text-red">/ F19</span></a>
+								</div>
+								<div class="content-treatments__item">
+									<h2 class="content-treatments__title">F80 – F89</h2>
+									<a href="#" class="content-treatments__text">Деменция при болезни Альцгеймера <span
+											class="content-treatments__text-red">/ F00</span></a>
+									<a href="#" class="content-treatments__text">Сосудистая деменция <span
+											class="content-treatments__text-red">/
+											F01</span></a>
+									<a href="#" class="content-treatments__text">Деменция при других болезнях, классифицированных
+										в
+										других рубриках <span class="content-treatments__text-red">/ F02</span></a>
+									<a href="#" class="content-treatments__text">Деменция неуточненная <span
+											class="content-treatments__text-red">/
+											F03</span></a>
+									<a href="#" class="content-treatments__text">Органический амнестический синдром, не вызванный
+										алкоголем или другими психоактивными веществами <span
+											class="content-treatments__text-red">/ F04</span>
+									</a>
+									<a href="#" class="content-treatments__text">Органический амнестический синдром, не вызванный
+										алкоголем или другими психоактивными веществами <span
+											class="content-treatments__text-red">/ F04</span>
+									</a>
+									<a href="#" class="content-treatments__text">Делирий, не вызванный алкоголем или другими
+										психоактивными веществами <span class="content-treatments__text-red">/
+											F05</span>
+									</a>
+									<a href="#" class="content-treatments__text">Другие психические расстройства, обусловленные
+										повреждением и дисфункцией головного мозга или соматической болезнью <span
+											class="content-treatments__text-red">/ F06</span></a>
+									<a href="#" class="content-treatments__text">Расстройства личности и поведения, обусловленные
+										болезнью, повреждением или дисфункцией головного мозга <span
+											class="content-treatments__text-red">/
+											F07</span></a>
+									<a href="#" class="content-treatments__text">Органическое или симптоматическое психическое
+										расстройство неуточненное <span class="content-treatments__text-red">/
+											F09</span>
+									</a>
+								</div>
+								<div class="content-treatments__item">
+									<h2 class="content-treatments__title">F90 – F98</h2>
+									<a href="#" class="content-treatments__text">Психические и поведенческие расстройства,
+										вызванные
+										употреблением алкоголя <span class="content-treatments__text-red">/ F10</span>
+									</a>
+									<a href="#" class="content-treatments__text">Психические и поведенческие расстройства,
+										вызванные
+										употреблением опиоидов <span class="content-treatments__text-red">/ F11</span>
+									</a>
+									<a href="#" class="content-treatments__text">Психические и поведенческие расстройства,
+										вызванные
+										употреблением каннабиоидов <span class="content-treatments__text-red">/
+											F12</span>
+									</a>
+									<a href="#" class="content-treatments__text">Психические и поведенческие расстройства,
+										вызванные
+										употреблением седативных или снотворных средств <span
+											class="content-treatments__text-red">/ F13</span>
+									</a>
+									<a href="#" class="content-treatments__text">Психические и поведенческие расстройства,
+										вызванные
+										употреблением кокаина <span class="content-treatments__text-red">/ F14</span>
+									</a>
+									<a href="#" class="content-treatments__text">Психические и поведенческие расстройства,
+										вызванные
+										употреблением других стимуляторов (включая кофеин) <span
+											class="content-treatments__text-red">/
+											F15</span></a>
+									<a href="#" class="content-treatments__text">Психические и поведенческие расстройства,
+										вызванные
+										употреблением галлюциногенов <span class="content-treatments__text-red">/
+											F16</span>
+									</a>
+									<a href="#" class="content-treatments__text">Психические и поведенческие расстройства,
+										вызванные
+										употреблением табака <span class="content-treatments__text-red">/ F17</span></a>
+									<a href="#" class="content-treatments__text">Психические и поведенческие расстройства,
+										вызванные
+										употреблением летучих растворителей <span class="content-treatments__text-red">/
+											F18</span></a>
+									<a href="#" class="content-treatments__text">Психические и поведенческие расстройства,
+										вызванные
+										одновре менным употреблением нескольких наркотических средств и
+										использованием других психоактивных веществ <span
+											class="content-treatments__text-red">/ F19</span></a>
+								</div>
+								<div class="content-treatments__item">
+									<h2 class="content-treatments__title">F99 – F99</h2>
+									<a href="#" class="content-treatments__text">Деменция при болезни Альцгеймера <span
+											class="content-treatments__text-red">/ F00</span></a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</main>
+	<footer>
+		<div class="footer-top">
+			<div class="container">
+				<div class="footer-top__wrapper">
+					<div class="footer-top__contacts contacts-footer">
+						<div class="contacts-footer__contact">
+							<a href="tel:" class="contacts-footer__contact-tel">+7 (343) 261 94 94</a>
+							<p class="contacts-footer__contact-name">Регистратура СОКПБ</p>
+							<div class="contacts-footer__socials">
+								<a href="#" class="_icon-VK"></a>
+								<a href="#" class="_icon-OK"></a>
+								<a href="#" class="_icon-YT"></a>
+							</div>
+						</div>
+						<div class="contacts-footer__contact">
+							<a href="tel:" class="contacts-footer__contact-tel">+7 (343) 261 94 94</a>
+							<p class="contacts-footer__contact-name">Клиника неврозов «Сосновый бор»</p>
+							<div class="contacts-footer__socials">
+								<a href="#" class="_icon-VK"></a>
+							</div>
+						</div>
+						<div class="contacts-footer__contact">
+							<a href="tel:" class="contacts-footer__contact-tel">+7 (343) 261 94 94</a>
+							<p class="contacts-footer__contact-name">Детский психологический центр</p>
+							<div class="contacts-footer__socials">
+								<a href="#" class="_icon-VK"></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="footer-links">
+			<div class="container">
+				<div class="footer-links__wrapper">
+					<div class="footer-links__list list-footer">
+						<h4 class="list-footer__title" data-index="0">О СОКПБ</h4>
+						<ul class="list-footer__sublist sublist-footer" id="footer-sublist-0">
+							<li class="sublist-footer__item"><a href="#">О больнице</a></li>
+							<li class="sublist-footer__item"><a href="#">Команда управления</a></li>
+							<li class="sublist-footer__item"><a href="#">Лицензия</a></li>
+							<li class="sublist-footer__item"><a href="#">Учредительные документы</a></li>
+							<li class="sublist-footer__item"><a href="#">Нормативные акты</a></li>
+							<li class="sublist-footer__item"><a href="#">Организационная структура</a></li>
+							<li class="sublist-footer__item"><a href="#">Реквизиты</a></li>
+							<li class="sublist-footer__item"><a href="#">Закупки</a></li>
+						</ul>
+					</div>
+					<div class="footer-links__list list-footer">
+						<h4 class="list-footer__title" data-index="1">Пациентам</h4>
+						<ul class="list-footer__sublist sublist-footer" id="footer-sublist-1">
+							<li class="sublist-footer__item"><a href="#">Режим и график работы</a></li>
+							<li class="sublist-footer__item"><a href="#">График приема граждан руководством</a></li>
+							<li class="sublist-footer__item"><a href="#">Обращение к главному врачу</a></li>
+							<li class="sublist-footer__item"><a href="#">Виды медицинской помощи</a></li>
+							<li class="sublist-footer__item"><a href="#">Диагностические исследования</a></li>
+							<li class="sublist-footer__item"><a href="#">Правила записи на первичный прием</a></li>
+							<li class="sublist-footer__item"><a href="#">Правила записи на консультативный прием</a>
+							</li>
+							<li class="sublist-footer__item"><a href="#">Доступная среда</a></li>
+						</ul>
+					</div>
+					<div class="footer-links__main-list main-list-footer">
+						<h4 class="main-list-footer__title"><a href="#">Статьи</a></h4>
+						<h4 class="main-list-footer__title"><a href="#">Врачи</a></h4>
+						<h4 class="main-list-footer__title"><a href="#">Филиалы и отделения</a></h4>
+						<h4 class="main-list-footer__title"><a href="#">Вакансии</a></h4>
+						<h4 class="main-list-footer__title"><a href="#">ОМС</a></h4>
+						<h4 class="main-list-footer__title"><a href="#">Платные услуги</a></h4>
+						<h4 class="main-list-footer__title"><a href="#">Законодательство</a></h4>
+						<h4 class="main-list-footer__title"><a href="#">Контролирующие органы</a></h4>
+						<h4 class="main-list-footer__title"><a href="#">Новости</a></h4>
+						<h4 class="main-list-footer__title"><a href="#">Отзывы</a></h4>
+						<h4 class="main-list-footer__title"><a href="#">Вопрос-ответ</a></h4>
+					</div>
+					<div class="footer-links__list list-footer">
+						<h4 class="list-footer__title" data-index="2">Образование</h4>
+						<ul class="list-footer__sublist sublist-footer" id="footer-sublist-2">
+							<li class="sublist-footer__item"><a href="#">Кафедра психиатрии, психотерапии и наркологии
+									УГМУ</a></li>
+							<li class="sublist-footer__item"><a href="#">Целевые наборы для поступления в УГМУ и
+									ординатуру
+									по
+									психиатрии</a></li>
+						</ul>
+					</div>
+					<div class="footer-links__list footer-links__list-last list-footer">
+						<h4 class="list-footer__title " data-index="3">Система менеджмента качества</h4>
+						<ul class="list-footer__sublist sublist-footer" id="footer-sublist-3">
+							<li class="sublist-footer__item"><a href="#">Политика в области качества</a></li>
+							<li class="sublist-footer__item"><a href="#">Цели и задачи</a></li>
+							<li class="sublist-footer__item"><a href="#">Сертификация</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="footer-info">
+			<div class="container">
+				<div class="footer-info__wrapper">
+					<div class="footer-info__emblem emblem-footer">
+						<p class="emblem-footer__text">Независимая оценка качества оказания услуг медицинским
+							организациям
+						</p>
+						<p class="emblem-footer__link"><a href="#" class="btn-small-p">участвовать в голосовании</a></p>
+					</div>
+					<div class="footer-info__links links-footer">
+						<a href="#" class="links-footer__link btn-small-p">карта сайта</a>
+						<a href="#" class="links-footer__link btn-small-p">записаться на прием</a>
+						<a href="#" class="links-footer__link btn-small-p">о covid</a>
+						<a href="#" class="links-footer__link btn-small-p">телефон доверия</a>
+						<a href="#" class="links-footer__link btn-small-p">оставить отзыв</a>
+						<a href="#" class="links-footer__link btn-small-p">статьи</a>
+						<a href="#" class="links-footer__link btn-small-p">priemnaya@sokpb.ru</a>
+						<a href="#" class="links-footer__link btn-small-p">+</a>
+					</div>
+					<div class="footer-info__copyright copyright-footer">
+						<p class="copyright-footer__copyright">© ГАУЗ СО «Свердловская областная<br> клиническая
+							психиатрическая больница»</p>
+						<a href="#" class="copyright-footer__privacy">Политика конфиденциальности</a><br>
+						<p class="copyright-footer__made _icon-cult">Сделано в</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="footer-bottom">
+			<div class="container">
+				<div class="footer-bottom__wrapper">
+					<h1 class="footer-bottom__title _icon-swiper-arrow swiper-title">Полезные ссылки</h1>
+					<div class="footer__slider swiper slider-footer">
+						<div class="swiper-wrapper slider-footer__wrapper">
+							<a href="#" class="swiper-slide slider-footer__slide slide-footer">
+								<img class="slide-footer__img" src="/public/images/help-link-1.png" alt="help-link"
+									loading="lazy">
+								<p class="slide-footer__desc">Министерство здравоохранения Свердловской области</p>
+							</a>
+							<a href="#" class="swiper-slide slider-footer__slide slide-footer">
+								<img class="slide-footer__img" src="/public/images/help-link-2.png" alt="help-link"
+									loading="lazy">
+								<p class="slide-footer__desc">Министерство здравоохранения Российской Федерации</p>
+							</a>
+							<a href="#" class="swiper-slide slider-footer__slide slide-footer">
+								<img class="slide-footer__img" src="/public/images/help-link-3.png" alt="help-link"
+									loading="lazy">
+								<p class="slide-footer__desc">Российское общество психиатров</p>
+							</a>
+							<a href="#" class="swiper-slide slider-footer__slide slide-footer">
+								<img class="slide-footer__img" src="/public/images/help-link-4.png" alt="help-link"
+									loading="lazy">
+								<p class="slide-footer__desc">Роспотребнадзор</p>
+							</a>
+							<a href="#" class="swiper-slide slider-footer__slide slide-footer">
+								<img class="slide-footer__img" src="/public/images/help-link-1.png" alt="help-link"
+									loading="lazy">
+								<p class="slide-footer__desc">Министерство здравоохранения Свердловской области</p>
+							</a>
+							<a href="#" class="swiper-slide slider-footer__slide slide-footer">
+								<img class="slide-footer__img" src="/public/images/help-link-2.png" alt="help-link"
+									loading="lazy">
+								<p class="slide-footer__desc">Министерство здравоохранения Российской Федерации</p>
+							</a>
+							<a href="#" class="swiper-slide slider-footer__slide slide-footer">
+								<img class="slide-footer__img" src="/public/images/help-link-3.png" alt="help-link"
+									loading="lazy">
+								<p class="slide-footer__desc">Российское общество психиатров</p>
+							</a>
+							<a href="#" class="swiper-slide slider-footer__slide slide-footer">
+								<img class="slide-footer__img" src="/public/images/help-link-4.png" alt="help-link"
+									loading="lazy">
+								<p class="slide-footer__desc">Роспотребнадзор</p>
+							</a>
+						</div>
+					</div>
+					<div class="swiper-button-prev footer-button-prev"></div>
+					<div class="swiper-button-next footer-button-next"></div>
+					<a class="footer-bottom__img" href="#"><img src="/public/images/footer-bottom.png"
+							alt="footer-img"></a>
+				</div>
+			</div>
+		</div>
+	</footer>
+</body>
+
+</html>
